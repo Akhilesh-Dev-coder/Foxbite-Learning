@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import axios from "axios";
 import Sidebar from "./components/Sidebar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -8,6 +9,10 @@ import AdminDashboard from "./pages/AdminDashboard";
 import PDFViewer from "./pages/PDFViewer";
 import ProtectedRoute from "./components/ProtectedRoute";
 import { AuthProvider } from "./context/AuthContext";
+
+// Set Axios Base URL
+axios.defaults.baseURL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
 
 function App() {
   return (
