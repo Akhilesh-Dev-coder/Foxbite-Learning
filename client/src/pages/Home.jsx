@@ -177,7 +177,7 @@ const Home = () => {
             <FeatureBox
               icon={<Book size={24} className="text-white" />}
               title="Curated by Experts"
-              desc="Notes prepared by state rank holders and experienced teachers to ensure 100% syllabus coverage."
+              desc="Notes prepared using high-scoring students strategies and refined by an experienced academic team to ensure 100% syllabus coverage."
               color="bg-blue-500"
               delay={0}
             />

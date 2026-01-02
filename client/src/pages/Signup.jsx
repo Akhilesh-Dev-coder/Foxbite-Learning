@@ -86,7 +86,7 @@ const Signup = () => {
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 shadow-md border-2 border-white/20" />
               <div>
-                <h5 className="font-bold text-xs tracking-wide">Arjun K.</h5>
+                <h5 className="font-bold text-xs tracking-wide">Goutham</h5>
                 <span className="text-[10px] text-indigo-200 font-bold uppercase tracking-wider">
                   +2 State Rank Holder
                 </span>
