@@ -12,10 +12,17 @@ connectDB();
 // Init Middleware
 app.use(
   cors({
-    origin: ["https://foxbite-learning.netlify.app", "http://localhost:5173"],
+    origin: [
+      "https://foxbite.in",
+      "https://www.foxbite.in",
+      "https://foxbite-learning.netlify.app",
+      "http://localhost:5173",
+    ],
     credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
   })
 );
+app.options("*", cors());
 app.use(express.json({ extended: false }));
 
 // Define Routes
