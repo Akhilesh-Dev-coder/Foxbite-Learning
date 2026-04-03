@@ -233,28 +233,28 @@ const Home = () => {
         <div className="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto px-4">
           <CourseCard
             title="+1 Plus One Notes"
-            price="₹22"
+            price="Free"
             batch="+1 State Syllabus"
             features={[
-              "Complete Physics Notes",
-              "Chemistry Key Points",
-              "Maths Formula Sheets",
-              "Previous Year Q&A",
-              "Exam Cheatsheets",
+              "complete PCM notes",
+              "Monthly mock tests",
+              "Formula sheets",
+              "Important sure Q&A",
+              "Doubt-clearance & support",
             ]}
             color="blue"
             popular={false}
           />
           <CourseCard
             title="+2 Plus Two Notes"
-            price="₹22"
+            price="Free"
             batch="+2 State Syllabus"
             features={[
-              "Advanced Physics Concepts",
-              "Organic Chemistry Guide",
-              "Calculus Mastery",
-              "Exam Strategy Layout",
-              "Top Scorer Secrets",
+              "Advanced PCM notes",
+              "Monthly mock Exams",
+              "Formula sheets",
+              "Exam Focused Q&A",
+              "Doubt-clearance & support",
             ]}
             color="purple"
             popular={true}
@@ -351,7 +351,7 @@ const Home = () => {
         <div className="space-y-4">
           <FaqItem
             q="How do I get access to the notes?"
-            a="Simply sign up, select your batch, and make the payment of ₹22. Once admin approves, you get instant access."
+            a='Simply sign up,select your batch and click "get via whatsapp" once admin approves you get instant access'
           />
           <FaqItem
             q="Can I download the PDFs?"
@@ -362,7 +362,7 @@ const Home = () => {
             a="Currently, our specialized content is tailored strictly for +1 and +2 State Syllabus students."
           />
           <FaqItem
-            q="What if I have payment issues?"
+            q="What if I have any issues?"
             a="Use the 'Live Support' button in the sidebar to chat with us on WhatsApp. We resolve issues instantly."
           />
           <FaqItem
